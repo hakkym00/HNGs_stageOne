@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile_picture">
+        <img
+          data-testid="slackDisplayImage"
+          src="./images/profile.jpeg"
+          alt="hakkym"
+        />
+      </div>
+      <div>
+        <div id="profile_info">
+          <p data-testid="slackUserName">Name: Hakkym</p>
+          <p data-testid="myTrack">Track: FrontEnd</p>
+          <p data-testid="currentDayOfTheWeek">Day: <span id="day"></span></p>
+          <p data-testid="currentUTCTime">UTC Time: <span id="time"></span></p>
+        </div>
+        <div id="button">
+          <a
+            data-testid="githubURL"
+            href="https://github.com/hakkym00/HNGs_stageOne.git"
+          >
+            Github
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
